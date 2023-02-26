@@ -8,12 +8,12 @@ CREATE TABLE `users` (
   `phoneno` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `img` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `tweets` (
   `user_id` int(11) NOT NULL,
   `tweet_id` int(11) NOT NULL,
   `created_date` varchar(255) NOT NULL,
-  `message` varchar(10000) NOT NULL,
+  `message` varchar(10000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
