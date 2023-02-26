@@ -1,0 +1,19 @@
+CREATE TABLE `users` (
+  `unique_id` int(11) NOT NULL,
+  `fname` varchar(255) NOT NULL,
+  `mname` varchar(255) NOT NULL,
+  `lname` varchar(255) NOT NULL,
+  `gender` varchar(255) NOT NULL,
+  `age` varchar(255) NOT NULL,
+  `phoneno` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tweets` (
+  `user_id` int(11) NOT NULL,
+  `tweet_id` int(11) NOT NULL,
+  `created_date` varchar(255) NOT NULL,
+  `message` varchar(10000) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
