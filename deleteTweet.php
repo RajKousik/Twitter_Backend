@@ -4,7 +4,8 @@ $dsn = 'mysql:host=localhost;dbname=twitterApp';
 $username = 'root';
 $password = 'password';
 
-try {
+try 
+{
     $pdo = new PDO($dsn, $username, $password);
 } 
 catch (PDOException $e) {
