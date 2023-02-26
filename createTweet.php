@@ -32,5 +32,4 @@ function createTweet(Request $request, Response $response): Response {
     $response->getBody()->write(json_encode(['success' => true]));
     return $response->withHeader('Content-Type', 'application/json')->withStatus(201);
 }
-
 ?>
