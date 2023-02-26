@@ -119,5 +119,4 @@
     {
         echo "All input field are required!";
     }
-
 ?>
